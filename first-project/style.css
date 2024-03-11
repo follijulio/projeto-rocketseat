@@ -1,0 +1,31 @@
+body {
+  background: url(./assets/bg-mobile.jpg) no-repeat top center/cover;
+}
+
+body * {
+  color: #ffffff;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.container {
+  width: 360px;
+  height: 712px;
+  border: 1px red solid;
+  margin: auto;
+}
+
+#profile {
+  text-align: center;
+}
+
+#profile img {
+  width: 112px;
+}
+
+#profile p {
+  font-weight: 400;
+  line-height: 24px;
+}
+
+#profile:hover {
+}
