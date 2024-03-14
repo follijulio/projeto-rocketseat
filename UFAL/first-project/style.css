@@ -121,6 +121,11 @@ footer {
   left: 0;
   animation: slide-back 0.4s;
   transform: translateY(-50%);
+  transition: all 0.4s;
+}
+
+#switch button:hover {
+  outline: 8px solid var(--stroke-color);
 }
 
 #switch span {
@@ -129,7 +134,7 @@ footer {
   height: 24px;
   background-color: var(--surface-color);
   border: 1px solid var(--stroke-color);
-  -webkit-backdrop-filter: blur(4px);
+  /*-webkit-backdrop-filter: blur(4px);*/
   border-radius: 9999px;
 }
 
